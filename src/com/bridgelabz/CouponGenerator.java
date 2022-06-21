@@ -1,8 +1,12 @@
 /*
-Just like the Perfect number, the Prime number is also a special type of number. When
-the number is divided greater than 1 and divided by 1 or itself is referred to as the Prime
-number. 0 and 1 are not counted as prime numbers. All the even numbers can be
-divided by 2, so 2 is the only even prime minister.
+a. Desc -> Given N distinct Coupon Numbers, how many random numbers do you
+need to generate a distinct coupon number? This program simulates this random
+process.
+b. I/P -> N Distinct Coupon Number
+c. Logic -> repeatedly choose a random number and check whether it's a new one.
+d. O/P -> total random number needed to have all distinct numbers.
+e. Functions => Write Class Static Functions to generate random numbers and to
+process distinct coupons.
 
 Random rand = new Random();
 int random_integer = rand.nextInt(upperbound-lowerbound) + lowerbound;
