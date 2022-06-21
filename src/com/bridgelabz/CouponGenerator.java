@@ -39,7 +39,7 @@ public class CouponGenerator {
             System.out.println(Coupon);
         }
         System.out.println();
-        //Printing Numerical Coupons, length is fixed to 4 digits
+        //Printing Numerical Coupons within the range.
         System.out.println("Numerical Coupons: ");
         System.out.println("Range that you want to generate coupon.");
         System.out.println("Enter Minimum number: ");
